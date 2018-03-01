@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="tf_login">Login</string>
+    <string name="tf_password">Password</string>
+    <string name="tf_webService">Web Service Url</string>
+
+    <string name="btn_inicio">Start</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_logs">Logs</string>
+    <string name="btn_network">Network</string>
+    <string name="btn_filters">Filters</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="btn_perfil_signUp">Connect</string>
+</resources>

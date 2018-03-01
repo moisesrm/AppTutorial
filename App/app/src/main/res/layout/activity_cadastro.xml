@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tf_login"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_marginTop="70dp"
+                android:id="@+id/login"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:drawableTint="#FFF"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/senha"
+                android:hint="@string/tf_password"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:drawableTint="#FFF"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tf_webService"
+                android:id="@+id/webservice"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:drawableTint="#FFF"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:id="@+id/btn_cadastro"
+                android:text="@string/btn_signUp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
